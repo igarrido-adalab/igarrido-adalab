@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página personal de Ivanico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="/images/favicon.png" />
+  <link rel="stylesheet" crossorigin href="./assets/main-CW-ALRoT.css">
+</head>
+
+<body>
+  <header class="header"> <!-- flex -->
+  <h1>Ivanico</h1>
+  <ul class="menu"> <!-- flex -->
+    <li><a class="menu__link--spotted" href="./index.html">Home</a></li>
+    <li><a class="menu__link" href="./index.html#tech">Tecnologías</a></li>
+    <li><a class="menu__link" href="./index.html#projects">Proyectos</a></li>
+    <li><a class="menu__link" href="./contact.html">Contacto</a></li>
+  </ul>
+</header>
+
+  <main>
+    <img src="./images/Avatar_LoFi.webp" alt="Dibujo de una chica programando en una habitación súper cozy" />
+
+    <h2 class="title">¡Hola! Soy Ivanico</h2>
+    <p>Aquí viene la descripción</p>
+
+    <h2 id="tech" class="title">Tecnologías con las que trabajo</h2>
+
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+
+    <h2 id="projects">Proyectos en los que he participado</h2>
+
+    <ol>
+      <li class="project_item">
+  <h3>Proyecto personal</h3>
+  <p>Este proyecto en el que he practicado a maquetar en HTML y CSS.</p>
+</li>
+      <li class="project_item">
+  <h3>Página del equipo</h3>
+  <p>Descripción de la página del equipo</p>
+</li>
+      <li class="project_item">
+  <h3>Tienda frutería</h3>
+  <p>Tienda virtual donde se pueden escoger productos y formar un carrito de compra.</p>
+</li>
+      <li class="project_item">
+  <h3>Lista de tareas</h3>
+  <p>Descripción de la aplicación de la lista de tareas</p>
+</li>
+    </ol>
+
+    <section class="socialnetworks">
+      <h3>Contacta conmigo</h3>
+      <ol class="list">
+        <li>
+          <a class="socialnetworks_link" href="https://github.com/igarrido-adalab">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-github-icon lucide-github">
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+              <path d="M9 18c-4.51 2-5-2-7-2" />
+            </svg>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a class="socialnetworks_link" href="https://linkedin.com/in/igarridomorillas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-linkedin-icon lucide-linkedin">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+        </li>
+        <li><a class="socialnetworks_link" href="https://www.instagram.com/ivanfullstack/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-instagram-icon lucide-instagram">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+            </svg>
+            Instagram</a></li>
+        <li><a class="socialnetworks_link" href="https://www.twitch.tv//vangamo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-twitch-icon lucide-twitch">
+              <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7" />
+            </svg>
+            Twitch</a></li>
+      </ol>
+    </section>
+  </main>
+  <footer class="footer">
+  <small>&copy;2026 Todos los derechos reservados</small>
+</footer>
+</body>
+
+</html>
