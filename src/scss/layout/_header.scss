@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.menu {
+  display: none;
+
+  &__link {
+    padding: 0.5rem;
+    color: #ffe2bd;
+
+    &--spotted {
+      padding: 0.5rem;
+      color: #ffe2bd;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+
+  @media (width > 768px) {
+    display: flex;
+    list-style-type: none;
+  }
+}

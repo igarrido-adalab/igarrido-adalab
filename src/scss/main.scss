@@ -1,0 +1,10 @@
+@use './general/reset';
+/* Equivalente a @import './general/reset'; */
+@use './general/variables_css';
+@use './general/body';
+@use './layout/header';
+@use './layout/footer';
+@use './sections/projects';
+@use './sections/social';
+
+/* Aquí van tus estilos */

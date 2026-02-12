@@ -1,0 +1,16 @@
+.socialnetworks {
+  background-color: var(--color-bk-dark);
+  padding-block: var(--spacing-lg);
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-lg);
+}
+
+.socialnetworks_link {
+  color: var(--color-text);
+}
